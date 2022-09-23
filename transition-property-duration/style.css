@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    width: 400px;
+    height: 100px;
+    background: palevioletred;
+}
+
+.container:hover .box {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.box1{
+    background: palegoldenrod;
+    transition: transform 500ms;
+    -webkit-transition: transform 500ms;
+    -moz-transition: transform 500ms;
+    -ms-transition: transform 500ms;
+    -o-transition: transform 500ms;
+}
+
+.box2 {
+    background: palegreen;
+    transition: transform 1000ms;
+    -webkit-transition: transform 1000ms;
+    -moz-transition: transform 1000ms;
+    -ms-transition: transform 1000ms;
+    -o-transition: transform 1000ms;
+}
+
+.box3 {
+    background: paleturquoise;
+    transition: transform 1500ms;
+    -webkit-transition: transform 1500ms;
+    -moz-transition: transform 1500ms;
+    -ms-transition: transform 1500ms;
+    -o-transition: transform 1500ms;
+}
